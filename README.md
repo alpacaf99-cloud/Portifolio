@@ -55,7 +55,7 @@ portfolio/
 │   └── imagens/                  # Fotos/prints do Dev
 │
 └── dev2/                        # Pasta do Desenvolvedor 2
-    ├── index.html               # Página principal do Dev 1 (resumo)
+    ├── index.html               # Página principal do Dev (resumo)
 │   ├── formacao.html
 │   ├── skills.html
 │   ├── projetos.html
