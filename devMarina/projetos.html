@@ -5,38 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos | Marina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <aside>
-        <a href="../index.html" class="nav__logo">← Trocar Perfil</a>
-        <ul class="barra-lateral__list">
-            <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a></li>
-            <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
-            <li class="barra-lateral__item"><a href="skills.html" class="barra-lateral__link">Skills</a></li>
-            <li class="barra-lateral__item"><a href="projetos.html" class="barra-lateral__link">Projetos</a></li>
-            <li class="barra-lateral__item"><a href="recomendacoes.html" class="barra-lateral__link">Recomendações</a>
-            </li>
-            <li class="barra-lateral__item"><a href="contato.html" class="barra-lateral__link">Contato</a></li>
-        </ul>
-    </aside>
-    <main>
-        <h1>Projetos Entregues:</h1>
-        <h2>Front-End</h2>
-        <a href="https://github.com/Marina-Sousa/meu-portfolio">
-            <p>Meu Portfolio Profissional</p>
-        </a>
-        <a href="https://github.com/Marina-Sousa/site-mercadinho">
-            <p>Site de Mercadinho</p>
-        </a>
-        <a href="https://github.com/Marina-Sousa/landing-page-mestre-de-obras">
-            <p>Landing Page de Mestre de Obras</p>
-        </a>
-        <h2>Python</h2>
-        <a href="https://github.com/Marina-Sousa/jogo-da-velha-python">
-            <p>Jogo da Velha</p>
-        </a>
+<body class="layout-portfolio">
+    <nav class="barra-lateral__nav">
+        <aside class="barra-lateral">
+            <a href="../index.html" class="barra-lateral__voltar">← Trocar Perfil</a>
+            <ul class="barra-lateral__list">
+                <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a>
+                </li>
+                <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
+                <li class="barra-lateral__item"><a href="skills.html" class="barra-lateral__link">Skills</a></li>
+                <li class="barra-lateral__item"><a href="projetos.html"
+                        class="barra-lateral__link barra-lateral__link--ativo">Projetos</a></li>
+                <li class="barra-lateral__item"><a href="recomendacoes.html"
+                        class="barra-lateral__link">Recomendações</a></li>
+                <li class="barra-lateral__item"><a href="contato.html" class="barra-lateral__link">Contato</a></li>
+            </ul>
+        </aside>
+    </nav>
+    <main class="conteudo-principal">
+        <h1 class="conteudo-principal__titulo">Projetos Entregues</h1>
+        <h2 class="conteudo-principal__subtitulo">Front-End</h2>
+        <section class="grade-cards grade-cards--coluna-unica">
+            <article class="card-item card-item--destaque">
+                <h3 class="card-item__titulo">Meu Portfólio Profissional</h3>
+                <p class="card-item__descricao">Site responsivo desenvolvido com HTML5 semântico e CSS.
+                </p>
+                <a href="https://github.com/Marina-Sousa/meu-portfolio" target="_blank" rel="noopener noreferrer"
+                    class="card-item__botao">
+                    Ver no GitHub
+                </a>
+            </article>
+
+            <article class="card-item">
+                <h3 class="card-item__titulo">Site de Mercadinho</h3>
+                <p class="card-item__descricao">Página institucional para comércio local.</p>
+                <a href="https://github.com/Marina-Sousa/site-mercadinho" target="_blank" rel="noopener noreferrer"
+                    class="card-item__botao">
+                    Ver no GitHub
+                </a>
+            </article>
+
+            <article class="card-item">
+                <h3 class="card-item__titulo">Landing Page Mestre de Obras</h3>
+                <p class="card-item__descricao">Página de apresentação de serviços de construção civil.</p>
+                <a href="https://github.com/Marina-Sousa/landing-page-mestre-de-obras" target="_blank"
+                    rel="noopener noreferrer" class="card-item__botao">
+                    Ver no GitHub
+                </a>
+            </article>
+        </section>
+
+        <h2 class="conteudo-principal__subtitulo">Python</h2>
+        <section class="grade-cards grade-cards--coluna-unica">
+            <article class="card-item">
+                <h3 class="card-item__titulo">Jogo da Velha</h3>
+                <p class="card-item__descricao">Jogo interativo via terminal desenvolvido em Python puro.</p>
+                <a href="https://github.com/Marina-Sousa/jogo-da-velha-python" target="_blank" rel="noopener noreferrer"
+                    class="card-item__botao">
+                    Ver no GitHub
+                </a>
+            </article>
+        </section>
     </main>
+    <footer class="rodape">
+        <p class="rodape__text">&copy; 2026 - Marina Pereira de Sousa</p>
+    </footer>
 </body>
 
 </html>

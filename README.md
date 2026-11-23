@@ -16,7 +16,6 @@ A ideia principal do projeto é servir como uma vitrine profissional compartilha
    - **Formação:** Informações acadêmicas, cursos e certificações.
    - **Skills:** Tecnologias, linguagens e ferramentas dominadas.
    - **Projetos:** Galeria com os principais trabalhos e repositórios.
-   - **Trajetória:** Linha do tempo com marcos da carreira e estudos.
    - **Recomendações:** Depoimentos, feedbacks e avaliações.
    - **Contato:** Links para redes sociais, GitHub, LinkedIn e formulário/e-mail.
 
@@ -26,7 +25,6 @@ A ideia principal do projeto é servir como uma vitrine profissional compartilha
 
 - **HTML5:** Estruturação semântica das páginas e da navegação.
 - **CSS3:** Estilização responsiva, layout da barra lateral e efeitos visuais.
-- **JavaScript:** Manipulação do DOM e lógica de alternância/navegação entre páginas.
 
 ---
 
@@ -36,12 +34,9 @@ A ideia principal do projeto é servir como uma vitrine profissional compartilha
 portfolio/
 │
 ├── index.html                   # Página de seleção inicial (fotos dos dois)
-├── assets/                      # Recursos globais compartilhados
-│   ├── css/
-│   │   └── global.css           # Estilos globais/comuns
-│   ├── js/
-│   │   └── global.js            # Scripts globais
-│   └── images/                  # Imagens da tela inicial e logos
+|──── css/
+│      └── global.css           # Estilos globais/comuns
+|───── imagens/                  # Imagens da tela inicial
 │
 ├── dev1/                        # Pasta do Desenvolvedor 1
 │   ├── index.html               # Página principal do Dev 1 (resumo)

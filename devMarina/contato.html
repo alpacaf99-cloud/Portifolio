@@ -5,31 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | Marina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <aside>
-        <a href="../index.html" class="nav__logo">← Trocar Perfil</a>
-        <ul class="barra-lateral__list">
-            <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a></li>
-            <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
-            <li class="barra-lateral__item"><a href="skills.html" class="barra-lateral__link">Skills</a></li>
-            <li class="barra-lateral__item"><a href="projetos.html" class="barra-lateral__link">Projetos</a></li>
-            <li class="barra-lateral__item"><a href="recomendacoes.html" class="barra-lateral__link">Recomendações</a>
-            </li>
-            <li class="barra-lateral__item"><a href="contato.html" class="barra-lateral__link">Contato</a></li>
-        </ul>
-    </aside>
-    <main>
-        <h1>Entre em contato por:</h1>
-        <h2>E-MAIL</h2>
-        <a href="mailto:marinaneide123@outlook.com">Contate-me por e-mail</a>
-        <h2>LINKEDIN</h2>
-        <a href="https://www.linkedin.com/in/marina-pereira-de-sousa-45458832b/" target="_blank">Contate-me por
-            LinkedIn</a>
-        <h2>GITHUB</h2>
-        <a href="https://github.com/Marina-Sousa" class="btn__link">Contate-me por GitHub</a>
+<body class="layout-portfolio">
+    <nav class="barra-lateral__nav">
+        <aside class="barra-lateral">
+            <a href="../index.html" class="barra-lateral__voltar">← Trocar Perfil</a>
+            <ul class="barra-lateral__list">
+                <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a>
+                </li>
+                <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
+                <li class="barra-lateral__item"><a href="skills.html" class="barra-lateral__link">Skills</a></li>
+                <li class="barra-lateral__item"><a href="projetos.html" class="barra-lateral__link">Projetos</a></li>
+                <li class="barra-lateral__item"><a href="recomendacoes.html"
+                        class="barra-lateral__link">Recomendações</a></li>
+                <li class="barra-lateral__item">
+                    <a href="contato.html" class="barra-lateral__link barra-lateral__link--ativo">Contato</a>
+                </li>
+            </ul>
+        </aside>
+    </nav>
+    <main class="conteudo-principal">
+        <h1 class="conteudo-principal__titulo">Entre em contato por:</h1>
+
+        <section class="grade-cards grade-cards--coluna-unica">
+            <article class="card-item">
+                <h2 class="card-item__titulo">E-MAIL</h2>
+                <p class="card-item__descricao">Envie uma mensagem diretamente para a minha caixa de entrada.</p>
+                <a href="mailto:marinaneide123@outlook.com" class="card-item__botao">Contate-me por e-mail</a>
+            </article>
+
+            <article class="card-item">
+                <h2 class="card-item__titulo">LINKEDIN</h2>
+                <p class="card-item__descricao">Conecte-se comigo e acompanhe minha trajetória acadêmica e profissional.
+                </p>
+                <a href="https://www.linkedin.com/in/marina-pereira-de-sousa-45458832b/" target="_blank"
+                    rel="noopener noreferrer" class="card-item__botao">Contate-me por LinkedIn</a>
+            </article>
+
+            <article class="card-item">
+                <h2 class="card-item__titulo">GITHUB</h2>
+                <p class="card-item__descricao">Explore meus repositórios, códigos-fonte e projetos publicados.</p>
+                <a href="https://github.com/Marina-Sousa" target="_blank" rel="noopener noreferrer"
+                    class="card-item__botao">Contate-me por GitHub</a>
+            </article>
+        </section>
     </main>
+    <footer class="rodape">
+        <p class="rodape__text">&copy; 2026 - Marina Pereira de Sousa</p>
+    </footer>
 </body>
 
 </html>

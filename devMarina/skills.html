@@ -5,24 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills | Marina Sousa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <aside>
-        <a href="../index.html" class="nav__logo">← Trocar Perfil</a>
-        <ul class="barra-lateral__list">
-            <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a></li>
-            <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
-            <li class="barra-lateral__item"><a href="skills.html" class="barra-lateral__link">Skills</a></li>
-            <li class="barra-lateral__item"><a href="projetos.html" class="barra-lateral__link">Projetos</a></li>
-            <li class="barra-lateral__item"><a href="recomendacoes.html" class="barra-lateral__link">Recomendações</a>
-            </li>
-            <li class="barra-lateral__item"><a href="contato.html" class="barra-lateral__link">Contato</a></li>
-        </ul>
-    </aside>
-    <main>
-
+<body class="layout-portfolio">
+    <nav class="barra-lateral__nav">
+        <aside class="barra-lateral">
+            <a href="../index.html" class="barra-lateral__voltar">← Trocar Perfil</a>
+            <ul class="barra-lateral__list">
+                <li class="barra-lateral__item"><a href="sobremim_Marina.html" class="barra-lateral__link">Início</a>
+                </li>
+                <li class="barra-lateral__item"><a href="formacao.html" class="barra-lateral__link">Formação</a></li>
+                <li class="barra-lateral__item"><a href="skills.html"
+                        class="barra-lateral__link barra-lateral__link--ativo">Skills</a></li>
+                <li class="barra-lateral__item"><a href="projetos.html" class="barra-lateral__link">Projetos</a></li>
+                <li class="barra-lateral__item"><a href="recomendacoes.html"
+                        class="barra-lateral__link">Recomendações</a></li>
+                <li class="barra-lateral__item"><a href="contato.html" class="barra-lateral__link">Contato</a></li>
+            </ul>
+        </aside>
+    </nav>
+    <main class="conteudo-principal">
+        <h1 class="conteudo-principal__titulo">Minhas Skills</h1>
+        <section class="grade-cards">
+            <article class="card-item card-item--destaque">
+                <h2 class="card-item__titulo">HTML5 & CSS3</h2>
+                <p class="card-item__descricao">Estruturação semântica, Flexbox, CSS Grid e responsividade.</p>
+            </article>
+            <article class="card-item">
+                <h2 class="card-item__titulo">Python</h2>
+                <p class="card-item__descricao">Lógica de programação, estruturas de dados e testes unitários.</p>
+            </article>
+            <article class="card-item">
+                <h2 class="card-item__titulo">Linguagem C</h2>
+                <p class="card-item__descricao">Fundamentos de algoritmos, ponteiros e alocação de memória.</p>
+            </article>
+            <article class="card-item">
+                <h2 class="card-item__titulo">Git & GitHub</h2>
+                <p class="card-item__descricao">Versionamento de código, branches e deploy no GitHub Pages.</p>
+            </article>
+            <article class="card-item">
+                <h2 class="card-item__titulo">Linux</h2>
+                <p class="card-item__descricao">Administração básica via terminal Debian e ambientes de desenvolvimento.
+                </p>
+            </article>
+            <article class="card-item">
+                <h2 class="card-item__titulo">SQL / MySQL</h2>
+                <p class="card-item__descricao">Modelagem relacional e consultas em bancos de dados.</p>
+            </article>
+        </section>
     </main>
+    <footer class="rodape">
+        <p class="rodape__text">&copy; 2026 - Marina Pereira de Sousa</p>
+    </footer>
 </body>
 
 </html>
