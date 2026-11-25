@@ -446,17 +446,16 @@ button:focus-visible {
         grid-template-columns: 1fr;
     }
 }
+
 .pagina-inicial {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: linear-gradient(
-        90deg,
-        #FCE7F0 0%,
-        #FFD8BE 35%,
-        #DDD6FE 65%,
-        #111022 100%
-    );
+    background: linear-gradient(90deg,
+            #FCE7F0 0%,
+            #FFD8BE 35%,
+            #DDD6FE 65%,
+            #111022 100%);
 }
