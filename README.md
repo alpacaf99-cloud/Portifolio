@@ -28,34 +28,44 @@ A ideia principal do projeto é servir como uma vitrine profissional compartilha
 
 ---
 
-## 📂 Estrutura de Arquivos
+## 📁 Estrutura de Arquivos do Projeto
 
 ```text
-portfolio/
-│
-├── index.html                   # Página de seleção inicial (fotos dos dois)
-|──── css/
-│      └── global.css           # Estilos globais/comuns
-|───── imagens/                  # Imagens da tela inicial
-│
-├── dev1/                        # Pasta do Desenvolvedor 1
-│   ├── index.html               # Página principal do Dev 1 (resumo)
-│   ├── formacao.html
-│   ├── skills.html
-│   ├── projetos.html
-│   ├── trajetoria.html
-│   ├── recomendacoes.html
+PORTFOLIO/
+├── devFelipe/
+│   ├── css/
+│   ├── imagens/
+│   ├── js/
 │   ├── contato.html
-│   ├── css/                     # Estilos específicos do Dev
-│   └── imagens/                  # Fotos/prints do Dev
-│
-└── dev2/                        # Pasta do Desenvolvedor 2
-    ├── index.html               # Página principal do Dev (resumo)
-│   ├── formacao.html
-│   ├── skills.html
+│   ├── formacao_jf.html
+│   ├── inicio_jf.html
 │   ├── projetos.html
-│   ├── trajetoria.html
 │   ├── recomendacoes.html
+│   ├── skills.html
+│   └── trajetoria.html
+├── devMarina/
 │   ├── contato.html
-│   ├── css/                     # Estilos específicos do Dev 
-│   └── imagens/                  # Fotos/prints do Dev
+│   ├── formacao.html
+│   ├── projetos.html
+│   ├── recomendacoes.html
+│   ├── skills.html
+│   ├── sobremim_Marina.html
+│   └── style.css
+├── imagens/
+├── index.html
+└── README.md
+```
+
+## 📸 Capturas de Tela (Responsividade)
+
+### 🖥️ Desktop (1366px)
+![Tela inicial do portfólio de João Felipe no Desktop 1366px](imagens/print-desktop-JF-1366.png)
+![Tela inicial do portfólio de Marina no Desktop 1366px](imagens/print-desktop-M-1366.png)
+
+### 📱 Tablet (768px)
+![Tela inicial do portfólio de João Felipe para Tablet 768px](imagens/print-tablet-JF-768.png)
+![Tela inicial do portfólio de Marina para Tablet 768px](imagens/print-tablet-M-768.png)
+
+### 📲 Smartphone (375px)
+![Tela inicial do portfólio de João Felipe para Smartphone 375px](imagens/print-mobile-JF-375.png)
+![Tela inicial do portfólio de Marina para Smartphone 375px](imagens/print-mobile-M-375.png)
